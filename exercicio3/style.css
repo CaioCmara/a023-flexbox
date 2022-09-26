@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 main{
@@ -8,7 +9,7 @@ main{
   gap: 20px;
   padding: 20px;
   width: 800px;
-  margin: 0 auto;
+  margin: 380px auto;
   background-color: orange;
 }
 
@@ -26,13 +27,17 @@ section{
 }
 
 #section-2{
+  flex-grow: 1;
 }
 
 #section-3{
+  flex-grow: 2;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }

@@ -3,7 +3,17 @@
   padding: 0;
 }
 
-main{
+.fila1{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+}
+.fila2{
+  margin-top: -20px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
